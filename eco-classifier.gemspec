@@ -10,9 +10,10 @@ Gem::Specification.new do |s|
   s.version = EcoClassifier::VERSION
   s.authors = ["Linmiao Xu"]
   s.email = ["lin@robotmoon.com"]
+  s.homepage = "https://github.com/linrock/eco-classifier"
 
   s.summary = "Classifies chess openings from a list of opening moves"
-  s.description = "Classifies chess openings from a list of opening moves"
+  s.description = "Classifies chess openings from a list of opening moves using the SCID ECO data file"
   s.license = "MIT"
 
   s.files = `git ls-files -z`.split("\0")
